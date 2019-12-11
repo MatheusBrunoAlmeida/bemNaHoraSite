@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e25bdcc13e.js" crossorigin="anonymous"></script>
+    <title>Bem na Hora</title>
+</head>
+
+<body>
+    <div class="cima">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#container">SIMULAR</a>|</li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="redesSociais">
+            <ul id="redesSociais">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="./imagens/BEM NA HORA LOGO WITHE.png" alt="" width="130px" height="50px">
+        </div>
+        <div class="logoCelular">
+            <img src="./imagens/logoCelular.png" alt="">
+        </div>
+        <hr id="linhaCima" width="30px">
+        <h1 id="tituloCima">PRECISA DE <br>DINHEIRO?</h1>
+        <span id="textoCima">TRANSFORMAMOS O SEU CARTÃO DE CRÉDITO <br> EM DINHEIRO NA HORA! USE 100% DO LIMITE <br>
+            LIVRE E PARCELE EM ATÉ 12X</span>
+        <div class="container" id="container">
+            <span id="tituloForm">FAÇA UMA SIMULAÇÃO:</span>
+            <input type="text" placeholder="Nome:" name="nome">
+            <input type="email" placeholder="E-mail" name="email">
+            <input type="tel" placeholder="Telefone" name="telefone">
+            <input type="number" class="valor" placeholder="Valor" name="valor">
+            <input type="submit" class="btn" value="SIMULAR" onclick="soma()">
+
+
+        </div>
+        <div class="container2"></div>
+    </div>
+
+    <button class="btnSomarPrimeiro" onclick=soma2()>SIMULAR</button>
+
+    <div class="divideCima">
+        <div class="hora"><span id="hora">RECEBA EM 1 HORA <br> EM CONTA BANCARIA</span></div>
+        <div class="limite"><span id="limite">USE 100% DO LIMITE LIVRE <br> DO SEU CARTÃO DE CRÉDITO</span></div>
+        <div class="parcela"><span id="parcela">PARCELE EM <br> ATÉ 12 VEZES</span></div>
+    </div>
+    <div class="circuloHora"></div>
+    <div class="circuloLimite"></div>
+    <div class="circuloParcela"></div>
+
+    <div class="sessao2" id="sobre">
+        <h1 id="h1sessao2">ENTENDA COMO PODEMOS TE AJUDAR:</h1>
+        <hr id="linhaSessao2" width="30px">
+        <div class="imagemCartaoEDinheiro">
+            <img src="./imagens/cartaoEDinheiro.jpeg" alt="" width="178px" height="188px">
+        </div>
+        <span id="tituloSessao2">
+            Sabe aquele recurso extra que você estava precisando e não sabia como conseguir?<br>
+            Nós podemos te ajudar!<br>
+            Utilizamos até 100% do limite disponível de seu cartão de crédito e transformamos <br>em dinheiro na sua
+            conta.<br>
+        </span>
+        <span id="textoMeioSessao2">
+            COMO FUNCIONA?
+        </span>
+        <span id="textoSessao2">
+            - Você faz sua simulação e entra em contato com nossa equipe que vai confirmar seus dados e valores.<br>
+            Estando combinado, você pode ir em até um de nossos estabelecimentos parceiros ou podemos mandar um
+            motoboy<br>
+            até o seu encontro com hora marcada para você passar seu cartão.<br><br>
+            - Transação segura, onde você mesmo passa seu cartão com a sua senha. Nós nunca ficamos com seu cartão ou<br>
+            pedimos sua senha.<br><br>
+            - Uma vez confirmada a transação, PRONTO. Você recebe o dinheiro na sua conta em até 1 hora!!!<br>
+            - Com segurança e comodidade, te ajudamos a levantar aquele recurso extra que faltava, BEM NA HORA.<br><br>
+
+            <span id="dentroTextoSessao2">
+                - Observação: para sua segurança e para a nossa, só fazemos depósitos em conta bancária em nome do titular<br>
+                do cartão.<br>
+                - Não depositamos para terceiros e nem pagamos em dinheiro (moeda).
+            </span>
+        </span>
+    </div>
+
+    <div class="sessao3">
+        <h1 id="tituloSessao3">CONTRATAÇÃO NA HORA!</h1>
+        <span id="textoSessao3">
+            A CONTRATAÇÃO DO EMPRESTIMO PESSOAL BEM NA HORA<br>
+            É DE ACORDO COM O LIMITE DISPONIVEL NO SEU CARTÃO DE CRÉDITO.<br>
+        </span>
+        <a href="#linhaCima"><button id="btnSessao3">SIMULAR</button></a>
+    </div>
+    <div class="bordaSessao3"></div>
+
+
+
+    <div class="sessao4">
+
+
+            <div class="logoRodape">
+                    <img src="./imagens/BEM NA HORA LOGO WITHE.png" alt="" width="150px" height="50px">
+                </div>
+       
+
+        <div class="contato">
+            <span id="telefoneContato">Telefone: 62 92000-5758</span>
+            <span id="emailContato">Email: contato@bemnahora.net</span>
+        </div>
+
+
+
+        <span id="textoSessao4">
+            *INFORAMÇÕES GERAIS. PRAZO DE PAGAMENTO: O PERIODO DE PAGAMENTO MINIMO É DE 3 MESES E O MAXIMO DE 12
+            MESES<br>
+            CUSTO TOTAL: CUSTO TOTAL PRATICADO VARIA DE 42,74% A 58,82% AO ANO. E A TAXA DE PROCESSAMENTO DO CARTÃO<br>
+            DE R$ 40,00 FIX0 SOBRE O VALOR TOMADO. EXEMPLO: VALOR DE CRÉDITO DE R$ 1.000,00 PARA PAGAR EM 12(DOZE)
+            MESES,<br>
+            TOTAL DE 12(DOZE) PARCELAS DE R$ 132,35. VALOR TOTAL A PAGAR: 1588,20.
+        </span>
+    </div>
+
+    <div class="rodape">
+        <span id="direitosAutorais">Bem na Hora © 2019. Todos os direitos reservados</span>
+        <span id="desenvolvidoPor">Desenvolvido por:<a href="#" id="dev">Matheus Bruno Almeida</a></span>
+    </div>
+
+    <input type="number" name="valor" class="inputParcela">
+
+    <script src="./teste.js"></script>
+</body>
+
+</html>
